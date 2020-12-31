@@ -1,0 +1,6 @@
+pitch 125
+flen 2500
+mag 40
+abbe true
+na 0.95
+medium 1

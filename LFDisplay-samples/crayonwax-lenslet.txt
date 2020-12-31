@@ -1,0 +1,2 @@
+(1710.000000,1148.000000,20.000000,0.000000,0.000000,20.000000)
+# (x-offset,y-offset,right-dx,right-dy,down-dx,down-dy)

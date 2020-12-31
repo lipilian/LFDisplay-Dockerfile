@@ -13,3 +13,9 @@ RUN cd /tmp && tar zxvf p262.tgz
 RUN cd /tmp/Python-2.6.2 && ./configure
 RUN cd /tmp/Python-2.6.2 && make
 RUN cd /tmp/Python-2.6.2 && make install
+RUN cd /
+RUN apt-get install -y libfreeimage-dev
+RUN apt-get install -y python-opengl
+RUN apt-get install -y python-qt4-gl
+RUN apt-get install -y python-qt4 
+RUN apt-get install -y python-numpy

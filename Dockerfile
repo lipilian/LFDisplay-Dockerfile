@@ -19,3 +19,12 @@ RUN apt-get install -y python-opengl
 RUN apt-get install -y python-qt4-gl
 RUN apt-get install -y python-qt4 
 RUN apt-get install -y python-numpy
+
+RUN apt-get -y install xauth
+RUN apt-get -y install firefox
+
+#Expose a port number
+EXPOSE 8887
+
+# Run firefox
+CMD firefox
